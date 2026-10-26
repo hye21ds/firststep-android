@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/warm_background" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:padding="26dp"
+        android:orientation="vertical" android:gravity="center_vertical">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="FIRST STEP  ·  MISSION"
+            android:textColor="@color/rose" android:textStyle="bold" android:textSize="14sp"/>
+        <TextView android:id="@+id/resultTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp"
+            android:text="미션 결과" android:textStyle="bold" android:textColor="@color/night_ink" android:textSize="31sp"/>
+        <TextView android:id="@+id/resultInfo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="27dp"
+            android:text="미션 결과 설명" android:textColor="@color/subtle_ink" android:textSize="17sp" android:lineSpacingExtra="7dp"/>
+        <Button android:id="@+id/buttonCollection" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="34dp"
+            android:text="도감 확인하기" android:background="@drawable/bg_button" android:textColor="@color/pure_white" android:textAllCaps="false"/>
+        <Button android:id="@+id/buttonHome" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="10dp"
+            android:text="홈으로" android:textAllCaps="false"/>
+    </LinearLayout>
+</ScrollView>

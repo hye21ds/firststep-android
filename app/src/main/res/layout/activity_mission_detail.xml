@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/warm_background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <Button android:id="@+id/buttonBack" android:layout_width="wrap_content" android:layout_height="48dp" android:text="← 미션 목록" android:textAllCaps="false"/>
+        <TextView android:id="@+id/detailNumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp"
+            android:text="MISSION 01" android:textStyle="bold" android:textColor="@color/rose" android:textSize="14sp"/>
+        <TextView android:id="@+id/detailTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:text="미션 제목" android:textStyle="bold" android:textColor="@color/night_ink" android:textSize="28sp"/>
+        <TextView android:id="@+id/detailPlace" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:text="장소 이름" android:textColor="@color/subtle_ink" android:textSize="14sp"/>
+        <TextView android:id="@+id/detailStory" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp"
+            android:padding="22dp" android:background="@drawable/bg_card" android:text="스토리" android:textColor="@color/night_ink"
+            android:textSize="17sp" android:lineSpacingExtra="7dp"/>
+        <TextView android:id="@+id/detailLearning" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp"
+            android:text="학습 목표" android:textColor="@color/subtle_ink" android:textSize="14sp"/>
+        <TextView android:id="@+id/detailStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp"
+            android:text="센서 미션" android:textStyle="bold" android:textColor="@color/night_ink" android:textSize="21sp"/>
+        <TextView android:id="@+id/detailStatusHelp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:text="아래 버튼을 눌러 센서 작동을 시작하세요." android:textColor="@color/subtle_ink" android:textSize="14sp"/>
+        <ProgressBar android:id="@+id/missionMeter" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent"
+            android:layout_height="12dp" android:layout_marginTop="22dp" android:max="100" android:progress="0" android:progressTint="@color/rose"/>
+        <Button android:id="@+id/buttonSensor" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="22dp"
+            android:text="센서 미션 시작" android:background="@drawable/bg_button" android:textColor="@color/pure_white" android:textAllCaps="false"/>
+        <Button android:id="@+id/buttonDemo" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginTop="12dp"
+            android:text="발표용 결과 화면 시연 (저장 안 함)" android:textAllCaps="false"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp"
+            android:text="GPS 도착 판정과 실제 AR 오브젝트는 다음 개발 단계에서 연결합니다."
+            android:textColor="@color/subtle_ink" android:textSize="12sp"/>
+    </LinearLayout>
+</ScrollView>

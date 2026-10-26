@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/warm_background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <Button android:id="@+id/buttonBack" android:layout_width="wrap_content" android:layout_height="48dp" android:text="← 돌아가기" android:textAllCaps="false"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp"
+            android:text="캠퍼스 탐방 안내도" android:textStyle="bold" android:textColor="@color/night_ink" android:textSize="29sp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:text="레이아웃 설계 단계 · 실제 지도 데이터와 GPS 위치는 미연동"
+            android:textColor="@color/rose" android:textSize="14sp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+            android:layout_marginTop="28dp" android:padding="22dp" android:background="@drawable/bg_card">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="탐방 거점 5곳" android:textStyle="bold"
+                android:textColor="@color/night_ink" android:textSize="21sp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"
+                android:text="실제 동선과 좌표는 현장 답사 후 확정합니다. 아래는 장소 목록이며 지리적 위치를 나타내는 지도는 아닙니다."
+                android:textColor="@color/subtle_ink" android:textSize="13sp"/>
+            <LinearLayout android:id="@+id/mapPlaceList" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" android:orientation="vertical"/>
+        </LinearLayout>
+        <Button android:id="@+id/buttonMissions" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="22dp"
+            android:text="미션 목록으로 이동" android:background="@drawable/bg_button" android:textColor="@color/pure_white" android:textAllCaps="false"/>
+    </LinearLayout>
+</ScrollView>

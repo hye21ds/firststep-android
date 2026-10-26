@@ -1,0 +1,8 @@
+<resources>
+    <color name="warm_background">#FAF7F2</color>
+    <color name="night_ink">#263047</color>
+    <color name="subtle_ink">#606C7B</color>
+    <color name="rose">#C96F88</color>
+    <color name="soft_rose">#F5DEE4</color>
+    <color name="pure_white">#FFFFFF</color>
+</resources>
